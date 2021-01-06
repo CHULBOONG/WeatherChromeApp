@@ -4,8 +4,8 @@ const COORDS = 'coords';
 function showWeather(temperature, place, feels_like, windspeed, temp_max, temp_min, humidity){
     const weather = document.querySelector('.js-weather');
     weather.innerText = `풍속 : ${windspeed}m/s 습도: ${humidity}%
-     최고 기온 : ${temp_max}°C 최저 기온 : ${temp_min}°C 체감 온도 : ${feels_like}°C
-
+     최고 기온 : ${temp_max}°C 최저 기온 : ${temp_min}°C
+체감 온도 : ${feels_like}°C
 
 
      현재 온도 : ${temperature}°C
